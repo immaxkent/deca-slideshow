@@ -51,25 +51,6 @@ export const slides: Slide[] = [
     background: bg3
   },
   {
-    id: 2,
-    title: "What We'll Cover",
-    badge: "PRESENTATION OVERVIEW",
-    content: {
-      type: "overview",
-      data: {
-        sections: [
-          { num: "01", title: "What is DECAStream?", desc: "Core value proposition and the problem it solves in decentralized trading" },
-          { num: "02", title: "Core Protocol Features", desc: "Streaming, Hot Pairs, Instasettle, and autonomous maintenance" },
-          { num: "03", title: "Streaming & DEX Mechanics", desc: "Supported decentralized exchanges and streaming execution" },
-          { num: "04", title: "Hot Pairs Algorithm", desc: "Finding high-value opportunities with $100K-$1M+ savings potential" },
-          { num: "05", title: "Instasettle & Architecture", desc: "OTC-style settlement and protocol fee structure" },
-          { num: "06", title: "Roadmap & Financials", desc: "Q1–Q3 2026 timeline, Ecosystem status, Team, The Ask, and 12‑month financial forecast" }
-        ]
-      }
-    },
-    background: bg1
-  },
-  {
     id: 3,
     title: "What is DECAStream?",
     badge: "PROTOCOL OVERVIEW",
@@ -100,12 +81,10 @@ export const slides: Slide[] = [
       type: "users",
       data: {
         userGroups: [
-          { title: "Market Makers", features: ["Arbitrage", "Volume Growth"], desc: "Drive throughput to invite arbitrage and increase daily volume for tokens and projects." },
-          { title: "Experienced Traders", features: ["CEX-DEX Bridge", "Strategy Optimization"], desc: "Leverage Hot Pairs to evaluate buys and sells from CEX to DEX and back." },
-          { title: "DEX Aggregators & Platforms", features: ["Core Contract", "Easy Integration"], desc: "Auto-route to trade placement endpoint via calling placeTrade() on the Core contract." }
-        ],
-        contractAddress: "0x62a1e4dc903f0677ba4e06494af0a74d8a1205be",
-        version: "1.0.5"
+          { title: "Market Makers", features: ["Arbitrage", "Volume Growth"], desc: "Drive *throughput* to invite *arbitrage* and increase *daily volume* for tokens and projects." },
+          { title: "Experienced Traders", features: ["CEX-DEX Bridge", "Strategy Optimization"], desc: "*Leverage Hot Pairs* to evaluate buys and sells from *CEX to DEX* and back." },
+          { title: "DEX Aggregators & Platforms", features: ["Core Contract", "Easy Integration"], desc: "*Auto-route* to trade placement endpoint via calling *placeTrade()* on the Core contract." }
+        ]
       }
     },
     background: bg3
